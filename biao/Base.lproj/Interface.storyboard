@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--firstButtonAction-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="firstButtonAction" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="biao" customModuleProvider="target">
+                    <items>
+                        <imageView width="136" height="121" alignment="center" id="C7S-wz-hQY">
+                            <gestureRecognizers>
+                                <swipeGestureRecognizer id="VcL-zH-tbW">
+                                    <connections>
+                                        <action selector="switchPet:" destination="AgC-eL-Hgc" id="tKa-j4-T4A"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                                <swipeGestureRecognizer direction="2" id="6Cj-dP-lcN">
+                                    <connections>
+                                        <action selector="swipeL:" destination="AgC-eL-Hgc" id="Mko-Zx-oXh"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
+                        <group width="1" alignment="left" id="lpo-Zc-Rq3">
+                            <items>
+                                <label width="63" alignment="left" text="I'm hungry" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="AZ7-Cx-Wgf">
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                </label>
+                                <label width="66" height="29" alignment="right" text="Play with me" textAlignment="center" minimumScaleFactor="0.59999999999999998" id="j0D-FK-TSh"/>
+                            </items>
+                        </group>
+                        <group width="1" height="24" alignment="left" id="np2-gX-h24">
+                            <items>
+                                <button width="65" height="29" alignment="left" title="Feed" id="rUu-KY-UZP">
+                                    <connections>
+                                        <action selector="feed" destination="AgC-eL-Hgc" id="0yy-3W-kg1"/>
+                                    </connections>
+                                </button>
+                                <button width="68" height="28" alignment="right" title="Play" id="DqM-99-Kto">
+                                    <connections>
+                                        <action selector="play" destination="AgC-eL-Hgc" id="8k0-Vs-6aJ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="fed" destination="AZ7-Cx-Wgf" id="xAL-ss-onb"/>
+                        <outlet property="happy" destination="j0D-FK-TSh" id="bM5-8S-RgQ"/>
+                        <outlet property="petImageView" destination="C7S-wz-hQY" id="WGA-1M-NyB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="366"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="biao" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

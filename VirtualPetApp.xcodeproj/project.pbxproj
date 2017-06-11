@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		239612641E89DEC300828407 /* twang.caff in Resources */ = {isa = PBXBuildFile; fileRef = 2365195B1E89A2CE00675BD7 /* twang.caff */; };
+		2396126B1E89E44A00828407 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239612691E89E44A00828407 /* Interface.storyboard */; };
+		2396126D1E89E44A00828407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2396126C1E89E44A00828407 /* Assets.xcassets */; };
+		239612741E89E44A00828407 /* biao Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 239612731E89E44A00828407 /* biao Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2396127B1E89E44A00828407 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396127A1E89E44A00828407 /* InterfaceController.swift */; };
+		2396127D1E89E44A00828407 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396127C1E89E44A00828407 /* ExtensionDelegate.swift */; };
+		2396127F1E89E44A00828407 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396127E1E89E44A00828407 /* NotificationController.swift */; };
+		239612811E89E44A00828407 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239612801E89E44A00828407 /* ComplicationController.swift */; };
+		239612831E89E44A00828407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239612821E89E44A00828407 /* Assets.xcassets */; };
+		239612871E89E44A00828407 /* biao.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 239612671E89E44A00828407 /* biao.app */; };
+		23CC22EA1E8B11F20055A81B /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CC22E91E8B11F20055A81B /* Pet.swift */; };
+		23CC22EC1E8B1EEA0055A81B /* PetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CC22EB1E8B1EEA0055A81B /* PetExtension.swift */; };
+		23CC22EE1E8B2E640055A81B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396127A1E89E44A00828407 /* InterfaceController.swift */; };
+		D8083D081DD2878F00DB6315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8083D071DD2878F00DB6315 /* AppDelegate.swift */; };
+		D8083D0A1DD2878F00DB6315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8083D091DD2878F00DB6315 /* ViewController.swift */; };
+		D8083D0D1DD2878F00DB6315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8083D0B1DD2878F00DB6315 /* Main.storyboard */; };
+		D8083D0F1DD2878F00DB6315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8083D0E1DD2878F00DB6315 /* Assets.xcassets */; };
+		D8083D121DD2878F00DB6315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8083D101DD2878F00DB6315 /* LaunchScreen.storyboard */; };
+		D8083D1A1DD289F300DB6315 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8083D191DD289F300DB6315 /* Pet.swift */; };
+		D8083D1C1DD2969000DB6315 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8083D1B1DD2969000DB6315 /* DisplayView.swift */; };
+		D8083D1E1DD2AF7D00DB6315 /* PetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8083D1D1DD2AF7D00DB6315 /* PetExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		239612751E89E44A00828407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8083CFC1DD2878F00DB6315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239612721E89E44A00828407;
+			remoteInfo = "biao Extension";
+		};
+		239612851E89E44A00828407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8083CFC1DD2878F00DB6315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 239612661E89E44A00828407;
+			remoteInfo = biao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2396128B1E89E44A00828407 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				239612741E89E44A00828407 /* biao Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2396128F1E89E44A00828407 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				239612871E89E44A00828407 /* biao.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2365195B1E89A2CE00675BD7 /* twang.caff */ = {isa = PBXFileReference; lastKnownFileType = file; path = twang.caff; sourceTree = "<group>"; };
+		239612671E89E44A00828407 /* biao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2396126A1E89E44A00828407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2396126C1E89E44A00828407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2396126E1E89E44A00828407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239612731E89E44A00828407 /* biao Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "biao Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		239612791E89E44A00828407 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2396127A1E89E44A00828407 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2396127C1E89E44A00828407 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2396127E1E89E44A00828407 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		239612801E89E44A00828407 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		239612821E89E44A00828407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		239612841E89E44A00828407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CC22E91E8B11F20055A81B /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		23CC22EB1E8B1EEA0055A81B /* PetExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetExtension.swift; sourceTree = "<group>"; };
+		D8083D041DD2878F00DB6315 /* VirtualPetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualPetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8083D071DD2878F00DB6315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8083D091DD2878F00DB6315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8083D0C1DD2878F00DB6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8083D0E1DD2878F00DB6315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8083D111DD2878F00DB6315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8083D131DD2878F00DB6315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8083D191DD289F300DB6315 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		D8083D1B1DD2969000DB6315 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		D8083D1D1DD2AF7D00DB6315 /* PetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		239612701E89E44A00828407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8083D011DD2878F00DB6315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		239612681E89E44A00828407 /* biao */ = {
+			isa = PBXGroup;
+			children = (
+				239612691E89E44A00828407 /* Interface.storyboard */,
+				2396126C1E89E44A00828407 /* Assets.xcassets */,
+				2396126E1E89E44A00828407 /* Info.plist */,
+			);
+			path = biao;
+			sourceTree = "<group>";
+		};
+		239612771E89E44A00828407 /* biao Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2396127A1E89E44A00828407 /* InterfaceController.swift */,
+				2396127C1E89E44A00828407 /* ExtensionDelegate.swift */,
+				2396127E1E89E44A00828407 /* NotificationController.swift */,
+				239612801E89E44A00828407 /* ComplicationController.swift */,
+				239612821E89E44A00828407 /* Assets.xcassets */,
+				239612841E89E44A00828407 /* Info.plist */,
+				239612781E89E44A00828407 /* Supporting Files */,
+			);
+			path = "biao Extension";
+			sourceTree = "<group>";
+		};
+		239612781E89E44A00828407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				239612791E89E44A00828407 /* PushNotificationPayload.apns */,
+				23CC22E91E8B11F20055A81B /* Pet.swift */,
+				23CC22EB1E8B1EEA0055A81B /* PetExtension.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8083CFB1DD2878F00DB6315 = {
+			isa = PBXGroup;
+			children = (
+				D8083D061DD2878F00DB6315 /* VirtualPetApp */,
+				239612681E89E44A00828407 /* biao */,
+				239612771E89E44A00828407 /* biao Extension */,
+				D8083D051DD2878F00DB6315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8083D051DD2878F00DB6315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8083D041DD2878F00DB6315 /* VirtualPetApp.app */,
+				239612671E89E44A00828407 /* biao.app */,
+				239612731E89E44A00828407 /* biao Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8083D061DD2878F00DB6315 /* VirtualPetApp */ = {
+			isa = PBXGroup;
+			children = (
+				D8083D071DD2878F00DB6315 /* AppDelegate.swift */,
+				D8083D091DD2878F00DB6315 /* ViewController.swift */,
+				D8083D1D1DD2AF7D00DB6315 /* PetExtensions.swift */,
+				D8083D191DD289F300DB6315 /* Pet.swift */,
+				D8083D1B1DD2969000DB6315 /* DisplayView.swift */,
+				D8083D0B1DD2878F00DB6315 /* Main.storyboard */,
+				2365195B1E89A2CE00675BD7 /* twang.caff */,
+				D8083D0E1DD2878F00DB6315 /* Assets.xcassets */,
+				D8083D101DD2878F00DB6315 /* LaunchScreen.storyboard */,
+				D8083D131DD2878F00DB6315 /* Info.plist */,
+			);
+			path = VirtualPetApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239612661E89E44A00828407 /* biao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2396128C1E89E44A00828407 /* Build configuration list for PBXNativeTarget "biao" */;
+			buildPhases = (
+				239612651E89E44A00828407 /* Resources */,
+				2396128B1E89E44A00828407 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239612761E89E44A00828407 /* PBXTargetDependency */,
+			);
+			name = biao;
+			productName = biao;
+			productReference = 239612671E89E44A00828407 /* biao.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		239612721E89E44A00828407 /* biao Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 239612881E89E44A00828407 /* Build configuration list for PBXNativeTarget "biao Extension" */;
+			buildPhases = (
+				2396126F1E89E44A00828407 /* Sources */,
+				239612701E89E44A00828407 /* Frameworks */,
+				239612711E89E44A00828407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "biao Extension";
+			productName = "biao Extension";
+			productReference = 239612731E89E44A00828407 /* biao Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		D8083D031DD2878F00DB6315 /* VirtualPetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8083D161DD2878F00DB6315 /* Build configuration list for PBXNativeTarget "VirtualPetApp" */;
+			buildPhases = (
+				D8083D001DD2878F00DB6315 /* Sources */,
+				D8083D011DD2878F00DB6315 /* Frameworks */,
+				D8083D021DD2878F00DB6315 /* Resources */,
+				2396128F1E89E44A00828407 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				239612861E89E44A00828407 /* PBXTargetDependency */,
+			);
+			name = VirtualPetApp;
+			productName = VirtualPetApp;
+			productReference = D8083D041DD2878F00DB6315 /* VirtualPetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8083CFC1DD2878F00DB6315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nathan Gitter";
+				TargetAttributes = {
+					239612661E89E44A00828407 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = A2TVB2CKGL;
+						ProvisioningStyle = Automatic;
+					};
+					239612721E89E44A00828407 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D8083D031DD2878F00DB6315 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A2TVB2CKGL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D8083CFF1DD2878F00DB6315 /* Build configuration list for PBXProject "VirtualPetApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8083CFB1DD2878F00DB6315;
+			productRefGroup = D8083D051DD2878F00DB6315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8083D031DD2878F00DB6315 /* VirtualPetApp */,
+				239612661E89E44A00828407 /* biao */,
+				239612721E89E44A00828407 /* biao Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		239612651E89E44A00828407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2396126D1E89E44A00828407 /* Assets.xcassets in Resources */,
+				2396126B1E89E44A00828407 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		239612711E89E44A00828407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				239612831E89E44A00828407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8083D021DD2878F00DB6315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8083D121DD2878F00DB6315 /* LaunchScreen.storyboard in Resources */,
+				239612641E89DEC300828407 /* twang.caff in Resources */,
+				D8083D0F1DD2878F00DB6315 /* Assets.xcassets in Resources */,
+				D8083D0D1DD2878F00DB6315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2396126F1E89E44A00828407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CC22EA1E8B11F20055A81B /* Pet.swift in Sources */,
+				23CC22EC1E8B1EEA0055A81B /* PetExtension.swift in Sources */,
+				2396127F1E89E44A00828407 /* NotificationController.swift in Sources */,
+				239612811E89E44A00828407 /* ComplicationController.swift in Sources */,
+				2396127D1E89E44A00828407 /* ExtensionDelegate.swift in Sources */,
+				2396127B1E89E44A00828407 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8083D001DD2878F00DB6315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8083D1A1DD289F300DB6315 /* Pet.swift in Sources */,
+				D8083D1E1DD2AF7D00DB6315 /* PetExtensions.swift in Sources */,
+				D8083D1C1DD2969000DB6315 /* DisplayView.swift in Sources */,
+				23CC22EE1E8B2E640055A81B /* InterfaceController.swift in Sources */,
+				D8083D0A1DD2878F00DB6315 /* ViewController.swift in Sources */,
+				D8083D081DD2878F00DB6315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		239612761E89E44A00828407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239612721E89E44A00828407 /* biao Extension */;
+			targetProxy = 239612751E89E44A00828407 /* PBXContainerItemProxy */;
+		};
+		239612861E89E44A00828407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 239612661E89E44A00828407 /* biao */;
+			targetProxy = 239612851E89E44A00828407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		239612691E89E44A00828407 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2396126A1E89E44A00828407 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		D8083D0B1DD2878F00DB6315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8083D0C1DD2878F00DB6315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8083D101DD2878F00DB6315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8083D111DD2878F00DB6315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		239612891E89E44A00828407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "biao Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		2396128A1E89E44A00828407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "biao Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		2396128D1E89E44A00828407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TVB2CKGL;
+				IBSC_MODULE = biao_Extension;
+				INFOPLIST_FILE = biao/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		2396128E1E89E44A00828407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TVB2CKGL;
+				IBSC_MODULE = biao_Extension;
+				INFOPLIST_FILE = biao/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		D8083D141DD2878F00DB6315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8083D151DD2878F00DB6315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8083D171DD2878F00DB6315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TVB2CKGL;
+				INFOPLIST_FILE = VirtualPetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D8083D181DD2878F00DB6315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2TVB2CKGL;
+				INFOPLIST_FILE = VirtualPetApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jinlinzhang.VirtualPetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		239612881E89E44A00828407 /* Build configuration list for PBXNativeTarget "biao Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				239612891E89E44A00828407 /* Debug */,
+				2396128A1E89E44A00828407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2396128C1E89E44A00828407 /* Build configuration list for PBXNativeTarget "biao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2396128D1E89E44A00828407 /* Debug */,
+				2396128E1E89E44A00828407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8083CFF1DD2878F00DB6315 /* Build configuration list for PBXProject "VirtualPetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8083D141DD2878F00DB6315 /* Debug */,
+				D8083D151DD2878F00DB6315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8083D161DD2878F00DB6315 /* Build configuration list for PBXNativeTarget "VirtualPetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8083D171DD2878F00DB6315 /* Debug */,
+				D8083D181DD2878F00DB6315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8083CFC1DD2878F00DB6315 /* Project object */;
+}
